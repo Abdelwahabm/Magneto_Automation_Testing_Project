@@ -1,33 +1,32 @@
 # Magneto_Automation_Testing_Project
-This project is an automated test suite for an e-commerce web application, built using Selenium WebDriver, TestNG, and the Page Object Model (POM) design pattern. The framework is designed for scalability, maintainability, and continuous integration.
 
-🔧 Key Features
-Automated UI testing for key user flows such as:
+This project is an automated test suite for an e-commerce web application, built using **Selenium WebDriver**, **TestNG**, and the **Page Object Model (POM)** design pattern. It is structured for scalability, maintainability, and easy integration with CI/CD tools.
 
-User login and signup
+## 🔧 Key Features
 
-Product browsing and selection
+- Automated UI Testing for core user journeys:
+  - User login and signup
+  - Product browsing and selection
+  - Cart operations
+  - Checkout and order confirmation
 
-Cart operations
+## 🧪 Test Framework Components
 
-Checkout and order confirmation
+- **Selenium WebDriver** for browser automation
+- **TestNG** for test execution and assertions
+- **Page Object Model (POM)** structure for modular and reusable code
+- **Maven** for build and dependency management
 
-Test Framework:
+## 📊 Reporting
 
-Selenium WebDriver
+- Generates detailed test execution reports using **ExtentReports**
 
-TestNG for test execution and assertions
+## ⚙️ Continuous Integration
 
-POM structure for clean and modular test code
+- Integrated with **Jenkins** for automated test runs and scheduling
+- Supports **cross-browser testing**
 
-Maven for build and dependency management
+## 📬 Contact
+- Email: mohwhab90@gmail.com
+- LinkedIn: linkedin.com/in/mohamed-abdelwahab-5540b0183
 
-Reporting:
-
-Generates detailed test execution reports using ExtentReports
-
-CI Integration:
-
-Integrated with Jenkins for automated test execution and scheduling
-
-Supports cross-browser testing
