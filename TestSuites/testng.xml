@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="ITI.TestComponents.Listeners">
+        </listener>
+    </listeners>
+    <test verbose="4" preserve-order="true" name="D:/Automation projects/LumaECommerceTestingProject">
+        <classes>
+            <class name="ITI.Tests.SignInErrorTest">
+                <methods>
+                    <include name="inValidEmailTest"/>
+                    <include name="inCorrectSignInTest"/>
+                </methods>
+            </class>
+            <class name="ITI.Tests.SubmitOrderTest">
+                <methods>
+                    <include name="submitOrder"/>
+                </methods>
+            </class>
+
+            <class name="ITI.Tests.AddProductTest">
+
+            </class>
+
+            <class name="ITI.Tests.CreateAccountTest">
+
+            </class>
+
+        </classes>
+    </test>
+</suite>
